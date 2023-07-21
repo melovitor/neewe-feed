@@ -1,0 +1,23 @@
+.avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.avatarWithBorder {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 4px solid var(--gray-800);
+    outline: 2px solid var(--blue-500);
+    transition: .2s;
+}
+
+
+.avatar:hover, .avatarWithBorder:hover{
+    width: 8rem;
+    height: 8rem;
+}
