@@ -16,6 +16,16 @@ const posts = [
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum repellendus veritatis enim laudantium. Ratione quaerat tempora aut sint soluta, mollitia ea reiciendis ab doloribus.',
     publishedAt: new Date('07/21/2023 12:00')
   },
+  {
+    id: 2,
+    author: {
+      avatarUrl: 'https://github.com/melovitor.png',
+      name: 'Vitor Melo',
+      role: 'Fullstack Developer'
+    },
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum repellendus veritatis enim laudantium. Ratione quaerat tempora aut sint soluta, mollitia ea reiciendis ab doloribus.',
+    publishedAt: new Date('07/21/2023 12:00')
+  },
 ]
 
 export default function App() {
