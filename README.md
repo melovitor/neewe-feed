@@ -4,7 +4,7 @@
 
 # > Projeto 1 Ignite
 
-Projeto desenvolvido por meio do curso Ignite da Rocketseat.
+Projeto de front-end desenvolvido por meio do curso Ignite da Rocketseat.
 
 ## 🛠️ Tecnologias.
 
