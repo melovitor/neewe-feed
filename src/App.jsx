@@ -13,7 +13,7 @@ const posts = [
       name: 'Vitor Melo',
       role: 'Fullstack Developer'
     },
-    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum repellendus veritatis enim laudantium. Ratione quaerat tempora aut sint soluta, mollitia ea reiciendis ab doloribus.',
+    content: 'Fala galera✌, acabei de subir o primeiro projeto da trilha Ignite da Rocketseat!',
     publishedAt: new Date('07/21/2023 12:00')
   },
   {
@@ -24,7 +24,7 @@ const posts = [
       role: 'Fullstack Developer'
     },
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum repellendus veritatis enim laudantium. Ratione quaerat tempora aut sint soluta, mollitia ea reiciendis ab doloribus.',
-    publishedAt: new Date('07/21/2023 12:00')
+    publishedAt: new Date('07/21/2023 16:00')
   },
 ]
 

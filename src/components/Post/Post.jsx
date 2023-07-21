@@ -8,7 +8,10 @@ import ptBR from 'date-fns/locale/pt-BR'
 import styles from './Post.module.css'
 
 export function Post({author, content, publishedAt}){
-    const [comments, setComments] = useState([])
+    const [comments, setComments] = useState([{
+        id: Math.floor(10000* Math.random()),
+        content: 'Que legal! Vou conferir!',
+    }])
     const [newCommentText, setNewCommentText] = useState('')
      
     const publishedDateFormattedTitle = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
